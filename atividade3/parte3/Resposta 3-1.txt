@@ -1,0 +1,8 @@
+  # Alunos:
+  # Yuri Gabriel da Silva Alves 
+  # Cássio Andrêzza de Almeida
+
+
+Resposta 3.1:
+
+	- acho que talvez uma boa ideia seja criar uma valiação se a flag do resultado estiver negativa, e então fazer um jump para uma chamada de impressão que imprima o resultado com o sinal de menos na frente do valor resultado em modulo

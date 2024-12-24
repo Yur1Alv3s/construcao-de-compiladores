@@ -1,18 +1,23 @@
   #
   # modelo de saida para o compilador
   #
+    # Alunos:
+  # Yuri Gabriel da Silva Alves 
+  # Cássio Andrêzza de Almeida
+
   .section .text
   .globl _start
 
 _start:
-
   mov $72, %rax
   sub $101, %rax
-  imul $4, %rax
+  mov $4, %rbx
+  mul %rbx
   mov %rax, %r8
 
   mov $14, %rax
-  imul $77, %rax
+  mov $77, %rbx
+  mul %rbx
   mov %rax, %r9
 
   add %r8, %r9

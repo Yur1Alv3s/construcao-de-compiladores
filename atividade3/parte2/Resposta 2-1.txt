@@ -1,0 +1,8 @@
+  # Alunos:
+  # Yuri Gabriel da Silva Alves 
+  # Cássio Andrêzza de Almeida
+
+
+Resposta 2.1:
+
+	- A diferença que encontramos foi em relação ao tamanho dos registradores, antes estavamos fazendo a adição ' add $4294979641, %rax' que não funcionou porque a instrução 'ADD' só suporta valores constantes de 32bits e '4294979641' ultrapassa esse numero, mas a intrução 'MOV' tem suporte até 64bits

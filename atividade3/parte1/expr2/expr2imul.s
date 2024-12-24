@@ -1,24 +1,24 @@
 .section .text
+
+  # Alunos:
+  # Yuri Gabriel da Silva Alves 
+  # Cássio Andrêzza de Almeida
+
 .globl _start
 
 _start:
   mov $7, %rax
-  mov $6, %rbx
-  mul %rbx
+  imul $6, %rax
 
-  mov $5, %rbx
-  mul %rbx
+  imul $5, %rax
   mov %rax, %r8
 
   mov $4, %rax
-  mov $3, %rbx
-  mul %rbx
+  imul $3, %rax
 
-  mov $2, %rbx
-  mul %rbx
+  imul $2, %rax
 
-  mov $1, %rbx
-  mul %rbx
+  imul $1, %rax
   mov %rax, %r9
 
   mov %r8, %rax
